@@ -203,6 +203,22 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Photo Portfolio",
+      badges: ["New"],
+      href: "https://shotbykian.com",
+      dates: "Updated September 2024",
+      active: true,
+      description:
+        "Improved my photography portfolio website with a new design and layout. Pictures range from landscapes, to commercial, to animals. Shot on both Sony and Canon. Go check it out!",
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn"],
+      links: {
+        sourceUrl: "https://github.com/kianxm/photo-portfolio",
+        websiteUrl: "https://shotbykian.com",
+      },
+      image: "/photoportfolio.png",
+      video: "",
+    },
+    {
       title: "STPR.AI",
       badges: [],
       href: "",
