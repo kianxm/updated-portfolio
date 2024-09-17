@@ -70,11 +70,11 @@ export const DATA = {
   otherSkills: [],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // {
-    //   href: "https://docs.google.com/document/d/17Kws6emmVtARqS_ByeapDyCkyzIdorpfNXZDr8C1hm4/export?format=pdf",
-    //   icon: NotebookIcon,
-    //   label: "Download Resume",
-    // },
+    {
+      href: "https://shotbykian.com",
+      icon: Icons.Camera,
+      label: "My Photography",
+    },
   ],
   contact: {
     email: "kianjmalakooti@gmail.com",
