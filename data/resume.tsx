@@ -203,7 +203,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Photo Portfolio",
+      title: "Creative Portfolio",
       badges: ["New"],
       href: "https://shotbykian.com",
       dates: "Updated September 2024",
@@ -215,7 +215,7 @@ export const DATA = {
         sourceUrl: "https://github.com/kianxm/photo-portfolio",
         websiteUrl: "https://shotbykian.com",
       },
-      image: "/photoportfolio.png",
+      image: "/photoportfolio3.png",
       video: "",
     },
     {
