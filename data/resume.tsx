@@ -143,6 +143,17 @@ export const DATA = {
         "Collaborated with a cross-functional team to enhance the iOS app using the MVVM architecture in Swift. Resolved bugs, redesigned the user interface, and released impactful updates for 2.5K+ users. Deployed the project using AWS services such as S3 and EC2 instances for storage and computing.",
     },
     {
+      company: "Best Buy",
+      href: "https://bestbuy.com/",
+      badges: [],
+      location: "Milpitas, CA",
+      title: "Sales Specialist",
+      logoUrl: "/bestbuy.jpg",
+      start: "Oct 2022",
+      end: "April 2023",
+      description: `Drove memberships up by 30% through customer engagement and product knowledge. Trained incoming employees and managed the sales floor during peak hours. Recognized as the top sales specialist in the department for 3 consecutive months.`,
+    },
+    {
       company: "SCU HCI Lab",
       href: "https://scu.edu/",
       badges: [],
