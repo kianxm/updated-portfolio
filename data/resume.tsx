@@ -181,7 +181,7 @@ export const DATA = {
     {
       school: "Santa Clara University",
       href: "https://scu.edu",
-      degree: "B.S. Computer Science & Engineering (GPA 3.5)",
+      degree: "B.S. Computer Science & Engineering (GPA 3.67)",
       logoUrl: "/scu.jpeg",
       start: "2019",
       end: "2023",
