@@ -119,6 +119,17 @@ export const DATA = {
 
   work: [
     {
+      company: "Meta",
+      href: "https://meta.com",
+      badges: [],
+      location: "Hybrid",
+      title: "Software Engineer",
+      logoUrl: "/meta.png",
+      start: "Oct 2024",
+      end: "Present",
+      description: "Content filtering and data labeling on the Meta Ops Squad",
+    },
+    {
       company: "Torpago",
       href: "https://torpago.com",
       badges: [],
