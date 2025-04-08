@@ -35,7 +35,7 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-28 border">
+              <Avatar className="md:size-36 size-28 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
@@ -104,7 +104,12 @@ export default function Page() {
       <section id="languages">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Programming Languages</h2>
+            <div className="flex flex-row justify-between items-center">
+              <h2 className="text-xl font-bold">Programming Languages</h2>
+              <p className="md:block hidden text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+                Hover for details
+              </p>
+            </div>
           </BlurFade>
           <TooltipProvider>
             <div className="flex flex-wrap gap-1">
@@ -115,12 +120,15 @@ export default function Page() {
                       <Badge key={language.name}>{language.name}</Badge>
                     </TooltipTrigger>
                     <TooltipContent>
-                      <div className="flex flex-col">
-                        <p className="font-semibold">
-                          {new Date().getFullYear() - language.learnedIn} years
-                          of experience
-                        </p>
-                        <p>{language.proficiency}</p>
+                      <div className="flex flex-row items-center">
+                        <language.icon size={24} />
+                        <div className="flex flex-col ml-2">
+                          <p className="font-semibold">
+                            {new Date().getFullYear() - language.learnedIn}{" "}
+                            years of experience
+                          </p>
+                          <p>{language.proficiency}</p>
+                        </div>
                       </div>
                     </TooltipContent>
                   </Tooltip>
@@ -199,7 +207,10 @@ export default function Page() {
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Hit me up on&nbsp;
-                <Link href="" className="text-blue-500">
+                <Link
+                  href={DATA.contact.social.LinkedIn.url}
+                  className="text-blue-500"
+                >
                   LinkedIn
                 </Link>
                 &nbsp;or grab my email from the dock below!

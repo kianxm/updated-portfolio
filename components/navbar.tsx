@@ -13,7 +13,6 @@ import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useState } from "react";
-import { Icons } from "./icons";
 import { DownloadIcon } from "lucide-react";
 
 export default function Navbar() {
@@ -58,7 +57,7 @@ export default function Navbar() {
           </DockIcon>
         ))}
 
-        <DockIcon>
+        {/* <DockIcon>
           <Tooltip>
             <TooltipTrigger asChild>
               <button
@@ -75,7 +74,7 @@ export default function Navbar() {
               <p>Download Resume</p>
             </TooltipContent>
           </Tooltip>
-        </DockIcon>
+        </DockIcon> */}
 
         <Separator orientation="vertical" className="h-full" />
 
