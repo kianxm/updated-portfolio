@@ -12,7 +12,7 @@ export const DATA = {
   name: "Kian Malakooti",
   initials: "KM",
   url: "https://kianjm.com",
-  location: "San Francisco, CA",
+  location: "Located in San Francisco, CA.",
   locationLink: "https://www.google.com/maps/place/san+francisco",
   resumeLink:
     "https://docs.google.com/document/d/17Kws6emmVtARqS_ByeapDyCkyzIdorpfNXZDr8C1hm4/export?format=pdf",
