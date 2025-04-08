@@ -1,54 +1,73 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon } from "lucide-react";
+import PythonOriginal from "devicons-react/lib/icons/PythonOriginal";
+import TypescriptOriginal from "devicons-react/lib/icons/TypescriptOriginal";
+import JavascriptOriginal from "devicons-react/lib/icons/JavascriptOriginal";
+import GoOriginal from "devicons-react/lib/icons/GoOriginal";
+import SwiftOriginal from "devicons-react/lib/icons/SwiftOriginal";
+import Html5Original from "devicons-react/lib/icons/Html5Original";
+import Css3Original from "devicons-react/lib/icons/Css3Original";
 
 export const DATA = {
   name: "Kian Malakooti",
   initials: "KM",
   url: "https://kianjm.com",
-  location: "Sunnyvale, CA",
-  locationLink: "https://www.google.com/maps/place/sunnyvale",
+  location: "San Francisco, CA",
+  locationLink: "https://www.google.com/maps/place/san+francisco",
   resumeLink:
     "https://docs.google.com/document/d/17Kws6emmVtARqS_ByeapDyCkyzIdorpfNXZDr8C1hm4/export?format=pdf",
-  description:
-    "Developing projects while actively searching for a new role. Passion in fullstack environments.",
+  description: "Passionate about code. Constantly curious.",
   summary:
-    "Graduated from Santa Clara University in the summer of 2023 with a degree in Computer Science & Engineering. Through my projects and internships, I've gained lots of production level knowledge and am able to pick up any task and execute it efficiently in a timely manner. I was recently a part of the tech layoffs and am searching for a new software role to continue my growth in the tech industry. Currently building out PairUp, see my projects below for more details.",
-  avatarUrl: "/me.jpg",
+    "Graduated from Santa Clara University in the summer of 2023 with a degree in Computer Science & Engineering. Through my projects and internships, I've gained lots of production level knowledge and am able to pick up any task and execute it efficiently in a timely manner. Hit by the tech layoffs but that didn't stop me. Currently a Metamate and constantly looking for ways to expand my knowledge while working hard in a fast-paced environment.",
+  avatarUrl: "/me2.PNG",
   codingLanguages: [
     {
       name: "Python",
       learnedIn: 2020,
       proficiency: "Advanced",
+      icon: PythonOriginal,
     },
     {
       name: "Typescript",
       learnedIn: 2022,
       proficiency: "Proficient",
+      icon: TypescriptOriginal,
     },
     {
       name: "Javascript",
       learnedIn: 2020,
       proficiency: "Proficient",
+      icon: JavascriptOriginal,
     },
     {
       name: "Golang",
       learnedIn: 2021,
       proficiency: "Intermediate",
+      icon: GoOriginal,
+    },
+    {
+      name: "Hack",
+      learnedIn: 2024,
+      proficiency: "Proficient",
+      icon: Html5Original,
     },
     {
       name: "Swift/UI",
       learnedIn: 2021,
       proficiency: "Intermediate",
+      icon: SwiftOriginal,
     },
     {
       name: "HTML",
       learnedIn: 2018,
       proficiency: "Advanced",
+      icon: Html5Original,
     },
     {
       name: "CSS",
       learnedIn: 2018,
       proficiency: "Advanced",
+      icon: Css3Original,
     },
   ],
   frameworks: [
@@ -127,7 +146,7 @@ export const DATA = {
       logoUrl: "/meta.png",
       start: "Oct 2024",
       end: "Present",
-      description: "Content filtering and data labeling on the Meta Ops Squad",
+      description: "Unified Learning Platform (ULP) Human Review Team",
     },
     {
       company: "Torpago",
@@ -192,7 +211,7 @@ export const DATA = {
     {
       school: "Santa Clara University",
       href: "https://scu.edu",
-      degree: "B.S. Computer Science & Engineering (GPA 3.67)",
+      degree: "B.S. Computer Science & Engineering",
       logoUrl: "/scu.jpeg",
       start: "2019",
       end: "2023",
