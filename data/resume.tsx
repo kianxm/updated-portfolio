@@ -18,7 +18,7 @@ export const DATA = {
     "https://docs.google.com/document/d/17Kws6emmVtARqS_ByeapDyCkyzIdorpfNXZDr8C1hm4/export?format=pdf",
   description: "Passionate about code. Constantly curious.",
   summary:
-    "Graduated from Santa Clara University in the summer of 2023 with a degree in Computer Science & Engineering. Through my projects and internships, I've gained lots of production level knowledge and am able to pick up any task and execute it efficiently in a timely manner. Hit by the tech layoffs but that didn't stop me. Currently a Metamate and constantly looking for ways to expand my knowledge while working hard in a fast-paced environment.",
+    "Graduated from Santa Clara University in the summer of 2023 with a degree in Computer Science & Engineering. Through working in startups or big tech, I've gained lots of production level knowledge and am able to pick up any task and execute within a timely manner. Currently a Metamate and constantly looking for ways to expand my knowledge while working hard in a fast-paced environment.",
   avatarUrl: "/me2.PNG",
   codingLanguages: [
     {
