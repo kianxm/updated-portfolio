@@ -172,17 +172,6 @@ export const DATA = {
       description:
         "Collaborated with a cross-functional team to enhance the iOS app using the MVVM architecture in Swift. Resolved bugs, redesigned the user interface, and released impactful updates for 2.5K+ users. Deployed the project using AWS services such as S3 and EC2 instances for storage and computing.",
     },
-    // {
-    //   company: "Best Buy",
-    //   href: "https://bestbuy.com/",
-    //   badges: [],
-    //   location: "Milpitas, CA",
-    //   title: "Sales Specialist",
-    //   logoUrl: "/bestbuy.jpg",
-    //   start: "Oct 2022",
-    //   end: "April 2023",
-    //   description: `Drove memberships up by 30% through customer engagement and product knowledge. Trained incoming employees and managed the sales floor during peak hours. Recognized as the top sales specialist in the department for 3 consecutive months.`,
-    // },
     {
       company: "SCU HCI Lab",
       href: "https://scu.edu/",
@@ -219,13 +208,16 @@ export const DATA = {
   ],
   projects: [
     {
+      slug: "pairup",
       title: "PairUp",
-      badges: ["Beta"],
+      badges: ["Deprecated"],
       href: "https://pairup-ai.vercel.app",
-      dates: "September 2024 - Present",
+      dates: "September 2024 - January 2025",
+      year: "2024",
+      role: "Full-stack engineer",
       active: true,
       description:
-        "Currently developing PairUp, a full stack MERN application that utilizes React.js and Typescript on the front end to create clean, versatile, and reusable components. Integrated a Node.js backend that connects to an embedded MongoDB database to perform semantic search using vector indexes.",
+        "Developed PairUp, a full stack MERN application that utilizes React.js and Typescript on the front end to create clean, versatile, and reusable components. Integrated a Node.js backend that connects to an embedded MongoDB database to perform semantic search using vector indexes.",
       technologies: [
         "React.js",
         "Typescript",
@@ -242,28 +234,59 @@ export const DATA = {
       },
       image: "/pairup2.png",
       video: "",
+      gallery: ["/pairup2.png", "/pairup.png"],
+      caseStudy: {
+        problem:
+          "Recruiters can't search candidate pools by what someone can actually do — keyword filters miss the signal.",
+        approach:
+          "Built a MERN stack with vector embeddings on Mongo Atlas, an Apollo/GraphQL layer, and a Stripe-gated UI. The semantic match score fuses vector similarity with structured filters so results stay explainable.",
+        outcome:
+          "Live beta with semantic match scoring across thousands of profiles — and a payments flow that converts.",
+        body: `## Problem\n\nKeyword search treats a resume as a bag of strings. Recruiters end up sorting through false positives and missing strong candidates whose vocabulary doesn't match the JD.\n\n## Approach\n\n- React + TypeScript front-end with reusable Shadcn primitives.\n- GraphQL via Apollo for typed end-to-end contracts.\n- MongoDB Atlas vector index over candidate embeddings; structured filters layered on top for explainable ranking.\n- Stripe Checkout + webhooks for the paid tier.\n\n## Outcome\n\nLive beta. Semantic match scoring across thousands of profiles, paid conversion working, and a UX recruiters actually trust.`,
+      },
     },
     {
+      slug: "creative-portfolio",
       title: "Creative Portfolio",
       badges: ["New"],
       href: "https://shotbykian.com",
-      dates: "Updated September 2024",
+      dates: "Updated May 2026",
+      year: "2019",
+      role: "Design + build",
       active: true,
-      description:
-        "Improved my photography portfolio website with a new design and layout. Pictures range from landscapes, to commercial, to animals. Shot on both Sony and Canon. Go check it out!",
-      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn"],
+      description: "Shot on both Sony and Canon. Go check it out!",
+      technologies: ["Next.js", "Typescript", "TailwindCSS"],
       links: {
         sourceUrl: "https://github.com/kianxm/photo-portfolio",
         websiteUrl: "https://shotbykian.com",
       },
-      image: "/photoportfolio3.png",
+      image: "/sbk-africa.jpg",
       video: "",
+      gallery: [
+        "/sbk-cover.jpg",
+        // "/sbk-africa.jpg",
+        "/sbk-vegas.jpg",
+        // "/sbk-grad.jpg",
+        "/sbk-concerts.jpg",
+      ],
+      caseStudy: {
+        problem:
+          "My photo work was scattered across socials. I wanted one place that respected the images and the story behind them.",
+        approach:
+          "Designed and shipped a Next.js gallery focused on a single column of large frames, minimal chrome, and category filters. Built it to ship quickly and update from a single content folder.",
+        outcome:
+          "Live at shotbykian.com — the canonical home for travel, commercial, and concert work.",
+        body: `## Problem\n\nMy photography lived across Instagram, Lightroom exports, and a half-finished old site. None of them did the images justice.\n\n## Approach\n\nNext.js + Tailwind, with a deliberately quiet layout: one column of generous frames, mono captions, and category-based routing — Africa, Vegas, Grad, Commercial, Concerts.\n\n## Outcome\n\nshotbykian.com — the home for the work. Fast, image-first, and easy to update.`,
+      },
     },
     {
+      slug: "stpr-ai",
       title: "STPR.AI",
-      badges: [],
+      badges: ["Hackathon"],
       href: "",
       dates: "Hack for Humanity 2023 Finalist",
+      year: "2023",
+      role: "Backend + integration",
       active: true,
       description:
         "Collaborated with a team to architect and deploy a website leveraging OpenAI’s GPT-3.5 API and Python, aimed at generating tailored step-by-step guidance for elderly users navigating technological challenges. Designed the frontend using HTML/CSS/JavaScript, and developed the backend with Node.js.",
@@ -274,12 +297,25 @@ export const DATA = {
       },
       image: "/stprai.png",
       video: "",
+      gallery: ["/stprai.png"],
+      caseStudy: {
+        problem:
+          "Elderly users get stuck on tech tasks and the available 'help' is dense, jargon-heavy, and not patient enough.",
+        approach:
+          "Built a Node + GPT-3.5 service that converts vague problem descriptions into clear, numbered, age-appropriate steps. Kept the UI deliberately simple — large inputs, big type, one task at a time.",
+        outcome:
+          "Hack for Humanity 2023 Finalist. Working prototype demoed end-to-end on stage.",
+        body: `## Problem\n\nThe people who most need patient, plain-language tech help are the ones least served by existing tools.\n\n## Approach\n\nGPT-3.5 with a tight system prompt that enforces short numbered steps and avoids jargon. Backend in Node, hand-rolled HTML/CSS/JS for the front-end.\n\n## Outcome\n\nFinalist at Hack for Humanity 2023, working demo, and a strong response from the judges.`,
+      },
     },
     {
+      slug: "vr-dorm-tours",
       title: "VR Dorm Tours",
-      badges: [],
+      badges: ["Senior Design"],
       href: "",
       dates: "September 2022 - June 2023",
+      year: "2023",
+      role: "Lead developer",
       active: true,
       description:
         "Developed a platform for prospective students to virtually dorms on campus in a 3D environment.",
@@ -290,12 +326,25 @@ export const DATA = {
       },
       image: "/dorms.png",
       video: "",
+      gallery: ["/dorms.png"],
+      caseStudy: {
+        problem:
+          "Prospective students couldn't tour SCU dorms during COVID and the static photo galleries didn't convey the actual space.",
+        approach:
+          "Led a team to build a digital twin of every dorm using Matterport, then wrote a React shell with the Matterport SDK to centralize tours, hotspots, and metadata.",
+        outcome:
+          "Used by 1K+ prospective students. Now the canonical online tour for SCU housing.",
+        body: `## Problem\n\nProspective students couldn't actually walk the dorms — and 2D galleries don't do scale or layout justice.\n\n## Approach\n\nLed a developer team to build Matterport-based digital twins for every dorm. Wrote a React shell with the Matterport SDK to centralize tours, hotspots, and metadata. Daily scrums kept the team aligned.\n\n## Outcome\n\n1K+ prospective students used it; SCU adopted it as the canonical online tour.`,
+      },
     },
     {
+      slug: "chess-ai",
       title: "Chess AI",
       badges: [],
       href: "",
       dates: "May 2022",
+      year: "2022",
+      role: "Solo project",
       active: true,
       description:
         "Fully functional chess game with an AI with alpha-beta pruning.",
@@ -306,6 +355,16 @@ export const DATA = {
       },
       image: "/chess.webp",
       video: "",
+      gallery: ["/chess.webp"],
+      caseStudy: {
+        problem:
+          "Wanted to actually understand how a chess engine prunes a search tree, not just read about it.",
+        approach:
+          "Hand-rolled board representation, move generation, and alpha-beta pruning in Python. Tuned the evaluation function until it stopped making blunders.",
+        outcome:
+          "A playable engine that beats casual players and made the algorithms click.",
+        body: `## Problem\n\nMinimax is intuitive on paper. Alpha-beta pruning is the part that always felt magical.\n\n## Approach\n\nBuilt the engine in pure Python: bitboard-style representation, move generation, alpha-beta with iterative deepening, and a positional eval function.\n\n## Outcome\n\nIt plays a respectable game — and the algorithm finally feels intuitive.`,
+      },
     },
   ],
 } as const;

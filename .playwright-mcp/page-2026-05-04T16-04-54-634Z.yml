@@ -1,0 +1,336 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2]:
+    - /url: "#hero"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Home" [ref=e6]:
+        - /url: /
+        - generic [ref=e8]: KM
+        - generic [ref=e9]: Kian Malakooti
+      - navigation [ref=e10]:
+        - link "Work" [ref=e12]:
+          - /url: /#work
+        - link "Projects" [ref=e14]:
+          - /url: /#projects
+        - link "About" [ref=e16]:
+          - /url: /#about
+        - link "Contact" [ref=e18]:
+          - /url: /#contact
+      - generic [ref=e19]:
+        - link "shotbykian ↗" [ref=e20]:
+          - /url: https://shotbykian.com
+        - switch "Switch to light mode" [checked] [ref=e21]:
+          - img [ref=e23]
+        - link "Resume ↗" [ref=e25]:
+          - /url: https://docs.google.com/document/d/17Kws6emmVtARqS_ByeapDyCkyzIdorpfNXZDr8C1hm4/export?format=pdf
+  - main [ref=e400]:
+    - generic [ref=e401]:
+      - generic [ref=e402]:
+        - generic [ref=e403]:
+          - generic [ref=e404]:
+            - generic [ref=e405]: "[01]"
+            - generic [ref=e407]: Available for work · May 2026
+          - heading "Kian Malakooti" [level=1] [ref=e411]:
+            - generic "Kian" [ref=e965]:
+              - generic [ref=e967]: K
+              - generic [ref=e969]: i
+              - generic [ref=e971]: a
+              - generic [ref=e973]: "n"
+            - generic "Malakooti" [ref=e974]:
+              - generic [ref=e976]: M
+              - generic [ref=e978]: a
+              - generic [ref=e980]: l
+              - generic [ref=e982]: a
+              - generic [ref=e984]: k
+              - generic [ref=e986]: o
+              - generic [ref=e988]: o
+              - generic [ref=e990]: t
+              - generic [ref=e992]: i
+          - generic [ref=e993]: Based in San Francisco
+        - img "Kian Malakooti" [ref=e446]
+      - generic:
+        - generic: Scroll
+    - generic [ref=e449]:
+      - generic [ref=e451]:
+        - generic [ref=e452]:
+          - text: Kian Malakooti
+          - generic [ref=e453]: ✺
+        - generic [ref=e454]:
+          - text: Full Stack
+          - generic [ref=e455]: ✺
+        - generic [ref=e456]:
+          - text: Design-aware
+          - generic [ref=e457]: ✺
+        - generic [ref=e458]:
+          - text: San Francisco
+          - generic [ref=e459]: ✺
+        - generic [ref=e460]:
+          - text: "2026"
+          - generic [ref=e461]: ✺
+      - generic [ref=e463]:
+        - generic [ref=e464]:
+          - text: Kian Malakooti
+          - generic [ref=e465]: ✺
+        - generic [ref=e466]:
+          - text: Full Stack
+          - generic [ref=e467]: ✺
+        - generic [ref=e468]:
+          - text: Design-aware
+          - generic [ref=e469]: ✺
+        - generic [ref=e470]:
+          - text: San Francisco
+          - generic [ref=e471]: ✺
+        - generic [ref=e472]:
+          - text: "2026"
+          - generic [ref=e473]: ✺
+    - generic [ref=e475]:
+      - paragraph [ref=e812]: "[02] — About"
+      - generic [ref=e813]:
+        - paragraph [ref=e814]: Graduated from Santa Clara University in the summer of 2023 with a degree in Computer Science & Engineering. Through working in startups or big tech, I've gained lots of production level knowledge and am able to pick up any task and execute within a timely manner. Currently a Metamate and constantly looking for ways to expand my knowledge while working hard in a fast-paced environment.
+        - paragraph [ref=e815]: Passionate about code. Constantly curious. Always exploring the intersection of code, design, and human experience — one shipped feature at a time.
+    - generic [ref=e482]:
+      - generic [ref=e483]:
+        - paragraph [ref=e995]: "[03] — Experience"
+        - heading "Where I've shipped." [level=2] [ref=e997]
+      - generic [ref=e489]:
+        - generic [ref=e490]:
+          - button "01 / 05 Meta Meta Software Engineer Oct 2024 — Present" [expanded] [active] [ref=e491]:
+            - generic [ref=e492]: 01 / 05
+            - generic [ref=e493]:
+              - img "Meta" [ref=e495]
+              - generic [ref=e496]: Meta
+            - generic [ref=e497]: Software Engineer
+            - generic [ref=e498]:
+              - text: Oct 2024 — Present
+              - generic [ref=e499]: ↗
+          - generic [ref=e999]:
+            - paragraph [ref=e1000]: Unified Learning Platform (ULP) Human Review Team
+            - link "Visit Meta ↗" [ref=e1001]:
+              - /url: https://meta.com
+        - button "02 / 05 Torpago Torpago Software Engineer Feb 2024 — Aug 2024" [ref=e501]:
+          - generic [ref=e502]: 02 / 05
+          - generic [ref=e503]:
+            - img "Torpago" [ref=e505]
+            - generic [ref=e506]: Torpago
+          - generic [ref=e507]: Software Engineer
+          - generic [ref=e508]:
+            - text: Feb 2024 — Aug 2024
+            - generic [ref=e509]: ↗
+        - button "03 / 05 Geopogo Geopogo Software Engineer Intern June 2023 — Dec 2023" [ref=e511]:
+          - generic [ref=e512]: 03 / 05
+          - generic [ref=e513]:
+            - img "Geopogo" [ref=e515]
+            - generic [ref=e516]: Geopogo
+          - generic [ref=e517]: Software Engineer Intern
+          - generic [ref=e518]:
+            - text: June 2023 — Dec 2023
+            - generic [ref=e519]: ↗
+        - button "04 / 05 SCU HCI Lab SCU HCI Lab Developer Sept 2022 — June 2023" [ref=e521]:
+          - generic [ref=e522]: 04 / 05
+          - generic [ref=e523]:
+            - img "SCU HCI Lab" [ref=e525]
+            - generic [ref=e526]: SCU HCI Lab
+          - generic [ref=e527]: Developer
+          - generic [ref=e528]:
+            - text: Sept 2022 — June 2023
+            - generic [ref=e529]: ↗
+        - button "05 / 05 Varian Medical Systems Varian Medical Systems Cybersecurity Researcher Sept 2021 — Sept 2022" [ref=e531]:
+          - generic [ref=e532]: 05 / 05
+          - generic [ref=e533]:
+            - img "Varian Medical Systems" [ref=e535]
+            - generic [ref=e536]: Varian Medical Systems
+          - generic [ref=e537]: Cybersecurity Researcher
+          - generic [ref=e538]:
+            - text: Sept 2021 — Sept 2022
+            - generic [ref=e539]: ↗
+      - link "[view full resume] ↗" [ref=e541]:
+        - /url: https://docs.google.com/document/d/17Kws6emmVtARqS_ByeapDyCkyzIdorpfNXZDr8C1hm4/export?format=pdf
+    - generic [ref=e543]:
+      - paragraph [ref=e545]: "[04] — Education"
+      - list [ref=e547]:
+        - listitem [ref=e548]:
+          - link "Santa Clara University Santa Clara University B.S. Computer Science & Engineering 2019 — 2023" [ref=e549]:
+            - /url: https://scu.edu
+            - generic [ref=e550]:
+              - img "Santa Clara University" [ref=e552]
+              - generic [ref=e553]: Santa Clara University
+            - generic [ref=e554]: B.S. Computer Science & Engineering
+            - generic [ref=e555]: 2019 — 2023
+    - generic [ref=e557]:
+      - paragraph [ref=e559]: "[05] — Stack"
+      - heading "The tools I reach for." [level=2] [ref=e561]:
+        - text: The tools
+        - text: I reach for.
+      - generic [ref=e563]:
+        - generic [ref=e564]:
+          - paragraph [ref=e565]: Languages
+          - generic [ref=e566]:
+            - generic [ref=e568]: Python
+            - generic [ref=e570]: Typescript
+            - generic [ref=e572]: Javascript
+            - generic [ref=e574]: Golang
+            - generic [ref=e576]: Hack
+            - generic [ref=e578]: Swift/UI
+            - generic [ref=e580]: HTML
+            - generic [ref=e582]: CSS
+        - generic [ref=e583]:
+          - paragraph [ref=e584]: Frameworks & Tools
+          - generic [ref=e585]:
+            - generic [ref=e587]: React
+            - generic [ref=e589]: Next.js
+            - generic [ref=e591]: Solid.js
+            - generic [ref=e593]: GraphQL
+            - generic [ref=e595]: Vue
+            - generic [ref=e597]: RESTful API
+            - generic [ref=e599]: Express
+            - generic [ref=e601]: TailwindCSS
+            - generic [ref=e603]: Git
+            - generic [ref=e605]: Agile
+            - generic [ref=e607]: XCode
+            - generic [ref=e609]: Photoshop
+            - generic [ref=e611]: Lightroom
+            - generic [ref=e613]: Figma
+    - generic [ref=e616]:
+      - generic [ref=e618]:
+        - generic [ref=e619]:
+          - text: Selected Work
+          - generic [ref=e620]: ✺
+        - generic [ref=e621]:
+          - text: Bento
+          - generic [ref=e622]: ✺
+        - generic [ref=e623]:
+          - text: Case Studies
+          - generic [ref=e624]: ✺
+        - generic [ref=e625]:
+          - text: Click any tile
+          - generic [ref=e626]: ✺
+      - generic [ref=e628]:
+        - generic [ref=e629]:
+          - text: Selected Work
+          - generic [ref=e630]: ✺
+        - generic [ref=e631]:
+          - text: Bento
+          - generic [ref=e632]: ✺
+        - generic [ref=e633]:
+          - text: Case Studies
+          - generic [ref=e634]: ✺
+        - generic [ref=e635]:
+          - text: Click any tile
+          - generic [ref=e636]: ✺
+    - generic [ref=e638]:
+      - generic [ref=e639]:
+        - paragraph [ref=e641]: "[06] — Selected Work"
+        - heading "Things I've built." [level=2] [ref=e643]
+      - generic [ref=e644]:
+        - link "PairUp Beta September 2024 - Present View case ↗ PairUp Currently developing PairUp, a full stack MERN application that utilizes React.js and Typescript on the front end to create clean, versatile, and reusable components. Integrated a Node.js backend that connects to an embedded MongoDB database to perform semantic search using vector indexes. React.js Typescript MongoDB Apollo GraphQL TailwindCSS" [ref=e646]:
+          - /url: /projects/pairup
+          - generic [ref=e647]:
+            - img "PairUp" [ref=e651]
+            - generic [ref=e653]: Beta
+          - generic [ref=e654]:
+            - generic [ref=e655]:
+              - generic [ref=e656]: September 2024 - Present
+              - generic [ref=e657]: View case ↗
+            - heading "PairUp" [level=3] [ref=e658]
+            - paragraph [ref=e659]: Currently developing PairUp, a full stack MERN application that utilizes React.js and Typescript on the front end to create clean, versatile, and reusable components. Integrated a Node.js backend that connects to an embedded MongoDB database to perform semantic search using vector indexes.
+            - generic [ref=e660]:
+              - generic [ref=e661]: React.js
+              - generic [ref=e662]: Typescript
+              - generic [ref=e663]: MongoDB
+              - generic [ref=e664]: Apollo
+              - generic [ref=e665]: GraphQL
+              - generic [ref=e666]: TailwindCSS
+        - link "Creative Portfolio New Updated September 2024 View case ↗ Creative Portfolio Improved my photography portfolio website with a new design and layout. Pictures range from landscapes, to commercial, to animals. Shot on both Sony and Canon. Go check it out! Next.js Typescript TailwindCSS Shadcn" [ref=e668]:
+          - /url: /projects/creative-portfolio
+          - generic [ref=e669]:
+            - img "Creative Portfolio" [ref=e673]
+            - generic [ref=e675]: New
+          - generic [ref=e676]:
+            - generic [ref=e677]:
+              - generic [ref=e678]: Updated September 2024
+              - generic [ref=e679]: View case ↗
+            - heading "Creative Portfolio" [level=3] [ref=e680]
+            - paragraph [ref=e681]: Improved my photography portfolio website with a new design and layout. Pictures range from landscapes, to commercial, to animals. Shot on both Sony and Canon. Go check it out!
+            - generic [ref=e682]:
+              - generic [ref=e683]: Next.js
+              - generic [ref=e684]: Typescript
+              - generic [ref=e685]: TailwindCSS
+              - generic [ref=e686]: Shadcn
+        - link "STPR.AI Hack for Humanity 2023 Finalist View case ↗ STPR.AI Collaborated with a team to architect and deploy a website leveraging OpenAI’s GPT-3.5 API and Python, aimed at generating tailored step-by-step guidance for elderly users navigating technological challenges. Designed the frontend using HTML/CSS/JavaScript, and developed the backend with Node.js. Javascript Node.js OpenAI" [ref=e688]:
+          - /url: /projects/stpr-ai
+          - img "STPR.AI" [ref=e693]
+          - generic [ref=e694]:
+            - generic [ref=e695]:
+              - generic [ref=e696]: Hack for Humanity 2023 Finalist
+              - generic [ref=e697]: View case ↗
+            - heading "STPR.AI" [level=3] [ref=e698]
+            - paragraph [ref=e699]: Collaborated with a team to architect and deploy a website leveraging OpenAI’s GPT-3.5 API and Python, aimed at generating tailored step-by-step guidance for elderly users navigating technological challenges. Designed the frontend using HTML/CSS/JavaScript, and developed the backend with Node.js.
+            - generic [ref=e700]:
+              - generic [ref=e701]: Javascript
+              - generic [ref=e702]: Node.js
+              - generic [ref=e703]: OpenAI
+        - link "VR Dorm Tours September 2022 - June 2023 View case ↗ VR Dorm Tours Developed a platform for prospective students to virtually dorms on campus in a 3D environment. Matterport Javascript HTML/CSS" [ref=e705]:
+          - /url: /projects/vr-dorm-tours
+          - img "VR Dorm Tours" [ref=e710]
+          - generic [ref=e711]:
+            - generic [ref=e712]:
+              - generic [ref=e713]: September 2022 - June 2023
+              - generic [ref=e714]: View case ↗
+            - heading "VR Dorm Tours" [level=3] [ref=e715]
+            - paragraph [ref=e716]: Developed a platform for prospective students to virtually dorms on campus in a 3D environment.
+            - generic [ref=e717]:
+              - generic [ref=e718]: Matterport
+              - generic [ref=e719]: Javascript
+              - generic [ref=e720]: HTML/CSS
+        - link "Chess AI May 2022 View case ↗ Chess AI Fully functional chess game with an AI with alpha-beta pruning. Python" [ref=e722]:
+          - /url: /projects/chess-ai
+          - img "Chess AI" [ref=e727]
+          - generic [ref=e728]:
+            - generic [ref=e729]:
+              - generic [ref=e730]: May 2022
+              - generic [ref=e731]: View case ↗
+            - heading "Chess AI" [level=3] [ref=e732]
+            - paragraph [ref=e733]: Fully functional chess game with an AI with alpha-beta pruning.
+            - generic [ref=e735]: Python
+    - generic [ref=e737]:
+      - paragraph [ref=e739]: "[07] — Contact"
+      - heading "Let's make something loud." [level=2] [ref=e741]:
+        - text: Let's make
+        - text: something loud.
+      - generic [ref=e743]:
+        - button "kianjmalakooti@gmail.com" [ref=e745]:
+          - generic [ref=e746]: kianjmalakooti@gmail.com
+          - generic [ref=e747]: →
+        - link "Or chat on LinkedIn ↗" [ref=e748]:
+          - /url: https://dub.sh/kian-linkedin
+      - paragraph [ref=e750]: I read every message. Whether you've got a project, a role, or just want to talk about photography, code, or what's good in San Francisco — say hi.
+  - contentinfo [ref=e378]:
+    - generic [ref=e379]:
+      - paragraph [ref=e380]: "[99] — Outro"
+      - heading "Get in touch." [level=2] [ref=e381]:
+        - text: Get in
+        - text: touch.
+      - generic [ref=e382]:
+        - link "kianjmalakooti@gmail.com ↗" [ref=e384]:
+          - /url: mailto:kianjmalakooti@gmail.com
+          - text: kianjmalakooti@gmail.com
+          - generic [ref=e385]: ↗
+        - generic [ref=e386]:
+          - link "GitHub ↗" [ref=e387]:
+            - /url: https://dub.sh/kian-github
+          - link "LinkedIn ↗" [ref=e388]:
+            - /url: https://dub.sh/kian-linkedin
+          - link "shotbykian ↗" [ref=e389]:
+            - /url: https://shotbykian.com
+      - generic [ref=e390]:
+        - generic [ref=e391]:
+          - generic [ref=e392]: Local time
+          - generic [ref=e393]: SF · 09:04:53
+        - generic [ref=e394]:
+          - generic [ref=e395]: Built with
+          - text: Next.js · Tailwind · Framer Motion
+        - generic [ref=e396]:
+          - generic [ref=e397]: © 2026
+          - text: Kian Malakooti
+    - generic [ref=e398]: Kian Malakooti
+  - alert [ref=e751]

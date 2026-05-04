@@ -1,0 +1,58 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2]:
+    - /url: "#hero"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Home" [ref=e6]:
+        - /url: /
+        - generic [ref=e8]: KM
+        - generic [ref=e9]: Kian Malakooti
+      - navigation [ref=e10]:
+        - link "Work" [ref=e12]:
+          - /url: /#work
+        - link "Projects" [ref=e14]:
+          - /url: /#projects
+        - link "About" [ref=e16]:
+          - /url: /#about
+        - link "Contact" [ref=e18]:
+          - /url: /#contact
+      - generic [ref=e19]:
+        - link "shotbykian ↗" [ref=e20]:
+          - /url: https://shotbykian.com
+        - switch "Switch to light mode" [checked] [ref=e21]:
+          - img [ref=e23]
+        - link "Resume ↗" [ref=e25]:
+          - /url: https://docs.google.com/document/d/17Kws6emmVtARqS_ByeapDyCkyzIdorpfNXZDr8C1hm4/export?format=pdf
+  - generic [ref=e29]:
+    - heading "404" [level=1] [ref=e30]
+    - heading "This page could not be found." [level=2] [ref=e32]
+  - contentinfo [ref=e33]:
+    - generic [ref=e34]:
+      - paragraph [ref=e35]: "[99] — Outro"
+      - heading "Get in touch." [level=2] [ref=e36]:
+        - text: Get in
+        - text: touch.
+      - generic [ref=e37]:
+        - link "kianjmalakooti@gmail.com ↗" [ref=e39]:
+          - /url: mailto:kianjmalakooti@gmail.com
+          - text: kianjmalakooti@gmail.com
+          - generic [ref=e40]: ↗
+        - generic [ref=e41]:
+          - link "GitHub ↗" [ref=e42]:
+            - /url: https://dub.sh/kian-github
+          - link "LinkedIn ↗" [ref=e43]:
+            - /url: https://dub.sh/kian-linkedin
+          - link "shotbykian ↗" [ref=e44]:
+            - /url: https://shotbykian.com
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: Local time
+          - generic [ref=e48]: SF · 09:48:23
+        - generic [ref=e49]:
+          - generic [ref=e50]: Built with
+          - text: Next.js · Tailwind · Framer Motion
+        - generic [ref=e51]:
+          - generic [ref=e52]: © 2026
+          - text: Kian Malakooti
+    - generic [ref=e53]: Kian Malakooti
+  - alert [ref=e54]

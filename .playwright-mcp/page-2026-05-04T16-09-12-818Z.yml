@@ -1,0 +1,317 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2]:
+    - /url: "#hero"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Home" [ref=e6]:
+        - /url: /
+        - generic [ref=e8]: KM
+      - generic [ref=e19]:
+        - switch "Switch to light mode" [checked] [active] [ref=e817]:
+          - img [ref=e818]
+        - button "Open menu" [ref=e941]:
+          - img [ref=e942]
+  - main [ref=e407]:
+    - generic [ref=e408]:
+      - generic [ref=e410]:
+        - generic [ref=e411]:
+          - generic [ref=e412]: "[01]"
+          - generic [ref=e414]: Available for work · May 2026
+        - heading "Kian Malakooti" [level=1] [ref=e418]:
+          - generic "Kian" [ref=e1130]:
+            - generic [ref=e1132]: K
+            - generic [ref=e1134]: i
+            - generic [ref=e1136]: a
+            - generic [ref=e1138]: "n"
+          - generic "Malakooti" [ref=e1139]:
+            - generic [ref=e1141]: M
+            - generic [ref=e1143]: a
+            - generic [ref=e1145]: l
+            - generic [ref=e1147]: a
+            - generic [ref=e1149]: k
+            - generic [ref=e1151]: o
+            - generic [ref=e1153]: o
+            - generic [ref=e1155]: t
+            - generic [ref=e1157]: i
+        - generic [ref=e1158]: Photographer
+      - generic:
+        - generic: Scroll
+    - generic [ref=e456]:
+      - generic [ref=e458]:
+        - generic [ref=e459]:
+          - text: Kian Malakooti
+          - generic [ref=e460]: ✺
+        - generic [ref=e461]:
+          - text: Full Stack
+          - generic [ref=e462]: ✺
+        - generic [ref=e463]:
+          - text: Design-aware
+          - generic [ref=e464]: ✺
+        - generic [ref=e465]:
+          - text: San Francisco
+          - generic [ref=e466]: ✺
+        - generic [ref=e467]:
+          - text: "2026"
+          - generic [ref=e468]: ✺
+      - generic [ref=e470]:
+        - generic [ref=e471]:
+          - text: Kian Malakooti
+          - generic [ref=e472]: ✺
+        - generic [ref=e473]:
+          - text: Full Stack
+          - generic [ref=e474]: ✺
+        - generic [ref=e475]:
+          - text: Design-aware
+          - generic [ref=e476]: ✺
+        - generic [ref=e477]:
+          - text: San Francisco
+          - generic [ref=e478]: ✺
+        - generic [ref=e479]:
+          - text: "2026"
+          - generic [ref=e480]: ✺
+    - generic [ref=e482]:
+      - paragraph [ref=e1002]: "[02] — About"
+      - generic [ref=e1003]:
+        - paragraph [ref=e1004]: Graduated from Santa Clara University in the summer of 2023 with a degree in Computer Science & Engineering. Through working in startups or big tech, I've gained lots of production level knowledge and am able to pick up any task and execute within a timely manner. Currently a Metamate and constantly looking for ways to expand my knowledge while working hard in a fast-paced environment.
+        - paragraph [ref=e1005]: Passionate about code. Constantly curious. Always exploring the intersection of code, design, and human experience — one shipped feature at a time.
+    - generic [ref=e489]:
+      - generic [ref=e490]:
+        - paragraph [ref=e1007]: "[03] — Experience"
+        - heading "Where I've shipped." [level=2] [ref=e1009]
+      - generic [ref=e496]:
+        - button "01 / 05 Meta Meta Software Engineer Oct 2024 — Present" [ref=e498]:
+          - generic [ref=e499]: 01 / 05
+          - generic [ref=e500]:
+            - img "Meta" [ref=e502]
+            - generic [ref=e503]: Meta
+          - generic [ref=e504]: Software Engineer
+          - generic [ref=e505]:
+            - text: Oct 2024 — Present
+            - generic [ref=e506]: ↗
+        - button "02 / 05 Torpago Torpago Software Engineer Feb 2024 — Aug 2024" [ref=e508]:
+          - generic [ref=e509]: 02 / 05
+          - generic [ref=e510]:
+            - img "Torpago" [ref=e512]
+            - generic [ref=e513]: Torpago
+          - generic [ref=e514]: Software Engineer
+          - generic [ref=e515]:
+            - text: Feb 2024 — Aug 2024
+            - generic [ref=e516]: ↗
+        - button "03 / 05 Geopogo Geopogo Software Engineer Intern June 2023 — Dec 2023" [ref=e518]:
+          - generic [ref=e519]: 03 / 05
+          - generic [ref=e520]:
+            - img "Geopogo" [ref=e522]
+            - generic [ref=e523]: Geopogo
+          - generic [ref=e524]: Software Engineer Intern
+          - generic [ref=e525]:
+            - text: June 2023 — Dec 2023
+            - generic [ref=e526]: ↗
+        - button "04 / 05 SCU HCI Lab SCU HCI Lab Developer Sept 2022 — June 2023" [ref=e528]:
+          - generic [ref=e529]: 04 / 05
+          - generic [ref=e530]:
+            - img "SCU HCI Lab" [ref=e532]
+            - generic [ref=e533]: SCU HCI Lab
+          - generic [ref=e534]: Developer
+          - generic [ref=e535]:
+            - text: Sept 2022 — June 2023
+            - generic [ref=e536]: ↗
+        - button "05 / 05 Varian Medical Systems Varian Medical Systems Cybersecurity Researcher Sept 2021 — Sept 2022" [ref=e538]:
+          - generic [ref=e539]: 05 / 05
+          - generic [ref=e540]:
+            - img "Varian Medical Systems" [ref=e542]
+            - generic [ref=e543]: Varian Medical Systems
+          - generic [ref=e544]: Cybersecurity Researcher
+          - generic [ref=e545]:
+            - text: Sept 2021 — Sept 2022
+            - generic [ref=e546]: ↗
+      - link "[view full resume] ↗" [ref=e548]:
+        - /url: https://docs.google.com/document/d/17Kws6emmVtARqS_ByeapDyCkyzIdorpfNXZDr8C1hm4/export?format=pdf
+    - generic [ref=e550]:
+      - paragraph [ref=e1011]: "[04] — Education"
+      - list [ref=e1013]:
+        - listitem [ref=e1014]:
+          - link "Santa Clara University Santa Clara University B.S. Computer Science & Engineering 2019 — 2023" [ref=e1015]:
+            - /url: https://scu.edu
+            - generic [ref=e1016]:
+              - img "Santa Clara University" [ref=e1018]
+              - generic [ref=e1019]: Santa Clara University
+            - generic [ref=e1020]: B.S. Computer Science & Engineering
+            - generic [ref=e1021]: 2019 — 2023
+    - generic [ref=e564]:
+      - paragraph [ref=e1023]: "[05] — Stack"
+      - heading "The tools I reach for." [level=2] [ref=e1025]:
+        - text: The tools
+        - text: I reach for.
+      - generic [ref=e570]:
+        - generic [ref=e571]:
+          - paragraph [ref=e572]: Languages
+          - generic [ref=e573]:
+            - generic [ref=e575]: Python
+            - generic [ref=e577]: Typescript
+            - generic [ref=e579]: Javascript
+            - generic [ref=e581]: Golang
+            - generic [ref=e583]: Hack
+            - generic [ref=e585]: Swift/UI
+            - generic [ref=e587]: HTML
+            - generic [ref=e589]: CSS
+        - generic [ref=e590]:
+          - paragraph [ref=e591]: Frameworks & Tools
+          - generic [ref=e592]:
+            - generic [ref=e594]: React
+            - generic [ref=e596]: Next.js
+            - generic [ref=e598]: Solid.js
+            - generic [ref=e600]: GraphQL
+            - generic [ref=e602]: Vue
+            - generic [ref=e604]: RESTful API
+            - generic [ref=e606]: Express
+            - generic [ref=e608]: TailwindCSS
+            - generic [ref=e610]: Git
+            - generic [ref=e612]: Agile
+            - generic [ref=e614]: XCode
+            - generic [ref=e616]: Photoshop
+            - generic [ref=e618]: Lightroom
+            - generic [ref=e620]: Figma
+    - generic [ref=e623]:
+      - generic [ref=e625]:
+        - generic [ref=e626]:
+          - text: Selected Work
+          - generic [ref=e627]: ✺
+        - generic [ref=e628]:
+          - text: Bento
+          - generic [ref=e629]: ✺
+        - generic [ref=e630]:
+          - text: Case Studies
+          - generic [ref=e631]: ✺
+        - generic [ref=e632]:
+          - text: Click any tile
+          - generic [ref=e633]: ✺
+      - generic [ref=e635]:
+        - generic [ref=e636]:
+          - text: Selected Work
+          - generic [ref=e637]: ✺
+        - generic [ref=e638]:
+          - text: Bento
+          - generic [ref=e639]: ✺
+        - generic [ref=e640]:
+          - text: Case Studies
+          - generic [ref=e641]: ✺
+        - generic [ref=e642]:
+          - text: Click any tile
+          - generic [ref=e643]: ✺
+    - generic [ref=e645]:
+      - generic [ref=e646]:
+        - paragraph [ref=e1027]: "[06] — Selected Work"
+        - heading "Things I've built." [level=2] [ref=e1029]
+      - generic [ref=e651]:
+        - link "PairUp Beta September 2024 - Present View case ↗ PairUp Currently developing PairUp, a full stack MERN application that utilizes React.js and Typescript on the front end to create clean, versatile, and reusable components. Integrated a Node.js backend that connects to an embedded MongoDB database to perform semantic search using vector indexes. React.js Typescript MongoDB Apollo GraphQL TailwindCSS" [ref=e1031]:
+          - /url: /projects/pairup
+          - generic [ref=e1032]:
+            - img "PairUp" [ref=e1036]
+            - generic [ref=e1038]: Beta
+          - generic [ref=e1039]:
+            - generic [ref=e1040]:
+              - generic [ref=e1041]: September 2024 - Present
+              - generic [ref=e1042]: View case ↗
+            - heading "PairUp" [level=3] [ref=e1043]
+            - paragraph [ref=e1044]: Currently developing PairUp, a full stack MERN application that utilizes React.js and Typescript on the front end to create clean, versatile, and reusable components. Integrated a Node.js backend that connects to an embedded MongoDB database to perform semantic search using vector indexes.
+            - generic [ref=e1045]:
+              - generic [ref=e1046]: React.js
+              - generic [ref=e1047]: Typescript
+              - generic [ref=e1048]: MongoDB
+              - generic [ref=e1049]: Apollo
+              - generic [ref=e1050]: GraphQL
+              - generic [ref=e1051]: TailwindCSS
+        - link "Creative Portfolio New Updated September 2024 View case ↗ Creative Portfolio Improved my photography portfolio website with a new design and layout. Pictures range from landscapes, to commercial, to animals. Shot on both Sony and Canon. Go check it out! Next.js Typescript TailwindCSS Shadcn" [ref=e1053]:
+          - /url: /projects/creative-portfolio
+          - generic [ref=e1054]:
+            - img "Creative Portfolio" [ref=e1058]
+            - generic [ref=e1060]: New
+          - generic [ref=e1061]:
+            - generic [ref=e1062]:
+              - generic [ref=e1063]: Updated September 2024
+              - generic [ref=e1064]: View case ↗
+            - heading "Creative Portfolio" [level=3] [ref=e1065]
+            - paragraph [ref=e1066]: Improved my photography portfolio website with a new design and layout. Pictures range from landscapes, to commercial, to animals. Shot on both Sony and Canon. Go check it out!
+            - generic [ref=e1067]:
+              - generic [ref=e1068]: Next.js
+              - generic [ref=e1069]: Typescript
+              - generic [ref=e1070]: TailwindCSS
+              - generic [ref=e1071]: Shadcn
+        - link "STPR.AI Hack for Humanity 2023 Finalist View case ↗ STPR.AI Collaborated with a team to architect and deploy a website leveraging OpenAI’s GPT-3.5 API and Python, aimed at generating tailored step-by-step guidance for elderly users navigating technological challenges. Designed the frontend using HTML/CSS/JavaScript, and developed the backend with Node.js. Javascript Node.js OpenAI" [ref=e1073]:
+          - /url: /projects/stpr-ai
+          - img "STPR.AI" [ref=e1078]
+          - generic [ref=e1079]:
+            - generic [ref=e1080]:
+              - generic [ref=e1081]: Hack for Humanity 2023 Finalist
+              - generic [ref=e1082]: View case ↗
+            - heading "STPR.AI" [level=3] [ref=e1083]
+            - paragraph [ref=e1084]: Collaborated with a team to architect and deploy a website leveraging OpenAI’s GPT-3.5 API and Python, aimed at generating tailored step-by-step guidance for elderly users navigating technological challenges. Designed the frontend using HTML/CSS/JavaScript, and developed the backend with Node.js.
+            - generic [ref=e1085]:
+              - generic [ref=e1086]: Javascript
+              - generic [ref=e1087]: Node.js
+              - generic [ref=e1088]: OpenAI
+        - link "VR Dorm Tours September 2022 - June 2023 View case ↗ VR Dorm Tours Developed a platform for prospective students to virtually dorms on campus in a 3D environment. Matterport Javascript HTML/CSS" [ref=e1090]:
+          - /url: /projects/vr-dorm-tours
+          - img "VR Dorm Tours" [ref=e1095]
+          - generic [ref=e1096]:
+            - generic [ref=e1097]:
+              - generic [ref=e1098]: September 2022 - June 2023
+              - generic [ref=e1099]: View case ↗
+            - heading "VR Dorm Tours" [level=3] [ref=e1100]
+            - paragraph [ref=e1101]: Developed a platform for prospective students to virtually dorms on campus in a 3D environment.
+            - generic [ref=e1102]:
+              - generic [ref=e1103]: Matterport
+              - generic [ref=e1104]: Javascript
+              - generic [ref=e1105]: HTML/CSS
+        - link "Chess AI May 2022 View case ↗ Chess AI Fully functional chess game with an AI with alpha-beta pruning. Python" [ref=e1107]:
+          - /url: /projects/chess-ai
+          - img "Chess AI" [ref=e1112]
+          - generic [ref=e1113]:
+            - generic [ref=e1114]:
+              - generic [ref=e1115]: May 2022
+              - generic [ref=e1116]: View case ↗
+            - heading "Chess AI" [level=3] [ref=e1117]
+            - paragraph [ref=e1118]: Fully functional chess game with an AI with alpha-beta pruning.
+            - generic [ref=e1120]: Python
+    - generic [ref=e744]:
+      - paragraph [ref=e880]: "[07] — Contact"
+      - heading "Let's make something loud." [level=2] [ref=e882]:
+        - text: Let's make
+        - text: something loud.
+      - generic [ref=e1122]:
+        - button "kianjmalakooti@gmail.com" [ref=e1124]:
+          - generic [ref=e1125]: kianjmalakooti@gmail.com
+          - generic [ref=e1126]: →
+        - link "Or chat on LinkedIn ↗" [ref=e1127]:
+          - /url: https://dub.sh/kian-linkedin
+      - paragraph [ref=e1129]: I read every message. Whether you've got a project, a role, or just want to talk about photography, code, or what's good in San Francisco — say hi.
+  - contentinfo [ref=e378]:
+    - generic [ref=e379]:
+      - paragraph [ref=e380]: "[99] — Outro"
+      - heading "Get in touch." [level=2] [ref=e381]:
+        - text: Get in
+        - text: touch.
+      - generic [ref=e382]:
+        - link "kianjmalakooti@gmail.com ↗" [ref=e384]:
+          - /url: mailto:kianjmalakooti@gmail.com
+          - text: kianjmalakooti@gmail.com
+          - generic [ref=e385]: ↗
+        - generic [ref=e386]:
+          - link "GitHub ↗" [ref=e387]:
+            - /url: https://dub.sh/kian-github
+          - link "LinkedIn ↗" [ref=e388]:
+            - /url: https://dub.sh/kian-linkedin
+          - link "shotbykian ↗" [ref=e389]:
+            - /url: https://shotbykian.com
+      - generic [ref=e390]:
+        - generic [ref=e391]:
+          - generic [ref=e392]: Local time
+          - generic [ref=e393]: SF · 09:09:12
+        - generic [ref=e394]:
+          - generic [ref=e395]: Built with
+          - text: Next.js · Tailwind · Framer Motion
+        - generic [ref=e396]:
+          - generic [ref=e397]: © 2026
+          - text: Kian Malakooti
+    - generic [ref=e398]: Kian Malakooti
+  - alert [ref=e758]

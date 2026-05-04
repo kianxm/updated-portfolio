@@ -1,15 +1,38 @@
-import Navbar from "@/components/navbar";
+import { Footer } from "@/components/chrome/footer";
+import { TopNav } from "@/components/chrome/top-nav";
+import { CustomCursor } from "@/components/motion/custom-cursor";
+import { NoiseOverlay } from "@/components/motion/noise-overlay";
+import { PageTransition } from "@/components/motion/page-transition";
+import { RouteCurtain } from "@/components/motion/route-curtain";
+import { ScrollProgress } from "@/components/motion/scroll-progress";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Inter as FontSans } from "next/font/google";
+import { Anton } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const fontSans = FontSans({
+const fontDisplay = Anton({
   subsets: ["latin"],
+  weight: "400",
+  variable: "--font-display",
+  display: "swap",
+});
+
+const fontSans = localFont({
+  src: "./fonts/GeistVF.woff",
   variable: "--font-sans",
+  display: "swap",
+  weight: "100 900",
+});
+
+const fontMono = localFont({
+  src: "./fonts/GeistMonoVF.woff",
+  variable: "--font-mono",
+  display: "swap",
+  weight: "100 900",
 });
 
 export const metadata: Metadata = {
@@ -49,14 +72,34 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
-          fontSans.variable
+          "min-h-screen bg-background text-foreground font-sans antialiased",
+          fontSans.variable,
+          fontMono.variable,
+          fontDisplay.variable
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem={false}
+          disableTransitionOnChange
+        >
           <TooltipProvider delayDuration={0}>
-            {children}
-            <Navbar />
+            <a
+              href="#hero"
+              className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[80] focus:rounded-md focus:bg-accent focus:px-3 focus:py-2 focus:font-mono focus:text-xs focus:uppercase focus:tracking-[0.16em] focus:text-accent-foreground"
+            >
+              Skip to content
+            </a>
+            <NoiseOverlay />
+            <ScrollProgress />
+            <CustomCursor />
+            <RouteCurtain />
+            <TopNav />
+            <div className="pt-16">
+              <PageTransition>{children}</PageTransition>
+            </div>
+            <Footer />
           </TooltipProvider>
         </ThemeProvider>
       </body>
