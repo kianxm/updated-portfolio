@@ -30,9 +30,9 @@ export function Contact() {
         </FadeIn>
         <FadeIn delay={0.1}>
           <h2 className="mt-6 font-display text-display-xl uppercase leading-[0.85] tracking-tight">
-            Let&apos;s make
+            Let&apos;s
             <br />
-            <span className="text-accent">something loud.</span>
+            <span className="text-accent">connect.</span>
           </h2>
         </FadeIn>
 
@@ -44,7 +44,7 @@ export function Contact() {
                 onClick={copyEmail}
                 data-cursor="link"
                 className={cn(
-                  "group inline-flex items-center gap-3 rounded-full bg-accent px-7 py-4 font-mono text-sm uppercase tracking-[0.16em] text-accent-foreground transition-transform duration-300 ease-expo-out hover:scale-[1.03]"
+                  "group inline-flex items-center gap-3 rounded-full bg-accent px-7 py-4 font-mono text-sm uppercase tracking-[0.16em] text-accent-foreground transition-transform duration-300 ease-expo-out hover:scale-[1.03]",
                 )}
               >
                 <span>
