@@ -26,7 +26,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative isolate flex min-h-[100svh] flex-col justify-end overflow-hidden px-gutter pb-20 pt-20 md:pb-28"
+      className="relative isolate flex min-h-[calc(100svh-4rem)] flex-col justify-end overflow-hidden px-gutter pb-20 pt-20 md:pb-28"
     >
       <div className="mx-auto grid w-full max-w-frame grid-cols-12 items-end gap-6">
         {/* Left: eyebrow + headline + role */}
@@ -48,7 +48,7 @@ export function Hero() {
             </span>
           </motion.div>
 
-          <h1 className="mt-8 font-display uppercase text-display-xl leading-[0.85] tracking-tight">
+          <h1 className="mt-8 font-display uppercase text-display-xl leading-[0.95] tracking-tight">
             <RevealText
               text="Kian"
               splitBy="char"
