@@ -19,13 +19,24 @@ export function generateMetadata({
 }): Metadata {
   const project = DATA.projects.find((p) => p.slug === params.slug);
   if (!project) return {};
+  const url = `${DATA.url.replace(/\/$/, "")}/projects/${project.slug}`;
+  const images = project.image ? [project.image] : undefined;
   return {
     title: project.title,
     description: project.description,
+    alternates: { canonical: `/projects/${project.slug}` },
     openGraph: {
       title: project.title,
       description: project.description,
-      images: project.image ? [project.image] : undefined,
+      url,
+      type: "article",
+      images,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: project.title,
+      description: project.description,
+      images,
     },
   };
 }
@@ -42,8 +53,25 @@ export default function ProjectPage({
   const prev = DATA.projects[(idx - 1 + DATA.projects.length) % DATA.projects.length];
   const next = DATA.projects[(idx + 1) % DATA.projects.length];
 
+  const base = DATA.url.replace(/\/$/, "");
+  const projectJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: project.title,
+    description: project.description,
+    url: `${base}/projects/${project.slug}`,
+    image: project.image ? `${base}${project.image}` : undefined,
+    dateCreated: project.year,
+    keywords: project.technologies?.join(", "),
+    author: { "@type": "Person", name: DATA.name, url: DATA.url },
+  };
+
   return (
     <article>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectJsonLd) }}
+      />
       {/* Top bar */}
       <div className="border-b border-border px-gutter">
         <div className="mx-auto flex h-14 w-full max-w-frame items-center justify-between font-mono text-eyebrow uppercase text-muted-foreground">

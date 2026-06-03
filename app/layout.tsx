@@ -35,20 +35,48 @@ const fontMono = localFont({
   weight: "100 900",
 });
 
+const SEO_TITLE = `${DATA.name} — Software Engineer & Full-Stack Developer`;
+const SEO_DESCRIPTION =
+  "Kian Malakooti is a software engineer at Meta and full-stack developer in San Francisco, building web and iOS products. Explore selected work, case studies, and photography.";
+
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
-    default: DATA.name,
+    default: SEO_TITLE,
     template: `%s | ${DATA.name}`,
   },
-  description: DATA.description,
+  description: SEO_DESCRIPTION,
+  keywords: [
+    DATA.name,
+    "software engineer",
+    "full-stack developer",
+    "Meta",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "React Native",
+    "iOS developer",
+    "San Francisco",
+    "portfolio",
+    "photographer",
+  ],
+  authors: [{ name: DATA.name, url: DATA.url }],
+  creator: DATA.name,
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: `${DATA.name}`,
-    description: DATA.description,
+    title: SEO_TITLE,
+    description: SEO_DESCRIPTION,
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: DATA.name,
     locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SEO_TITLE,
+    description: SEO_DESCRIPTION,
   },
   robots: {
     index: true,
@@ -61,6 +89,31 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+};
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: DATA.name,
+  url: DATA.url,
+  image: `${DATA.url.replace(/\/$/, "")}${DATA.avatarUrl}`,
+  jobTitle: "Software Engineer",
+  worksFor: { "@type": "Organization", name: "Meta" },
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "San Francisco",
+    addressRegion: "CA",
+    addressCountry: "US",
+  },
+  sameAs: [
+    DATA.contact.social.GitHub.url,
+    DATA.contact.social.LinkedIn.url,
+    "https://shotbykian.com",
+  ].filter(Boolean),
+  knowsAbout: [
+    ...DATA.codingLanguages.map((l) => l.name),
+    ...DATA.frameworks,
+  ],
 };
 
 export default function RootLayout({
@@ -78,6 +131,10 @@ export default function RootLayout({
           fontDisplay.variable
         )}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
