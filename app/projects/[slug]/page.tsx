@@ -3,6 +3,7 @@ import { FadeIn } from "@/components/motion/fade-in";
 import { Magnetic } from "@/components/motion/magnetic";
 import { DATA } from "@/data/resume";
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
@@ -85,15 +86,13 @@ export default function ProjectPage({
           <div className="col-span-12 lg:col-span-5">
             <FadeIn delay={0.15}>
               <div className="relative aspect-[4/5] w-full">
-                <div
-                  aria-hidden
-                  className="absolute inset-0 translate-x-3 translate-y-3 rounded-md bg-accent"
-                />
-                <ParallaxImage
-                  src={project.image}
+                <Image
+                  src={project.gallery[1] ?? project.gallery[0] ?? project.image}
                   alt={project.title}
-                  intensity={0.1}
-                  className="relative aspect-[4/5] w-full overflow-hidden rounded-md border border-border"
+                  fill
+                  sizes="(min-width: 1024px) 40vw, 100vw"
+                  priority
+                  className="object-contain"
                 />
               </div>
             </FadeIn>
