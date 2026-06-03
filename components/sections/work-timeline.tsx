@@ -11,6 +11,19 @@ import { useReducedMotion } from "@/lib/use-reduced-motion";
 
 type WorkRow = (typeof DATA.work)[number];
 
+/** Compact date for mobile: "June 2023" -> "Jun '23", "Present" -> "Now". */
+function shortDate(d: string): string {
+  if (d.toLowerCase() === "present") return "Now";
+  const parts = d.split(" ");
+  if (parts.length === 2) {
+    const [mon, year] = parts;
+    const shortYear = /^\d{4}$/.test(year) ? `'${year.slice(2)}` : year;
+    return `${mon.slice(0, 3)} ${shortYear}`;
+  }
+  if (/^\d{4}$/.test(d)) return `'${d.slice(2)}`;
+  return d;
+}
+
 function Row({
   work,
   index,
@@ -59,8 +72,13 @@ function Row({
         <span className="col-span-7 font-mono text-xs uppercase tracking-[0.16em] text-muted-foreground md:col-span-4 md:text-sm">
           {work.title}
         </span>
-        <span className="col-span-5 text-right font-mono text-xs uppercase tracking-[0.16em] text-muted-foreground md:col-span-3 md:text-sm">
-          {work.start} — {work.end}
+        <span className="col-span-5 whitespace-nowrap text-right font-mono text-[0.7rem] uppercase tracking-[0.04em] text-muted-foreground md:col-span-3 md:text-sm md:tracking-[0.16em]">
+          <span className="md:hidden">
+            {shortDate(work.start)} — {shortDate(work.end)}
+          </span>
+          <span className="hidden md:inline">
+            {work.start} — {work.end}
+          </span>
           <span
             aria-hidden
             className="ml-3 inline-block transition-transform duration-300 ease-expo-out group-hover:translate-x-1"
