@@ -208,6 +208,38 @@ export const DATA = {
   ],
   projects: [
     {
+      slug: "oryn",
+      title: "Oryn",
+      badges: ["Beta"],
+      href: "https://orynapp.vercel.app",
+      dates: "May 2026 - Present",
+      year: "2026",
+      role: "Founder",
+      active: true,
+      description: `Oryn is an iOS morning-briefing app that presents your day as a single scrollable card feed — a "personal newspaper" aggregating weather, financial/market data, bank balances (Plaid), news, email summaries (Gmail), health metrics (HealthKit), and AI-generated briefing text (Anthropic).`,
+      technologies: [
+        "React Native",
+        "Expo SDK 54",
+        "Anthropic",
+        "Gmail",
+        "HealthKit",
+        "Plaid",
+      ],
+      links: {
+        sourceUrl: "",
+        websiteUrl: "https://orynapp.vercel.app",
+      },
+      image: "/oryn.png",
+      video: "",
+      gallery: ["/oryn.png", "/oryn-mockup-vertical.png"],
+      caseStudy: {
+        problem: `Mornings start with a dozen apps — weather, markets, bank balances, news, email, health. The signal is scattered and nobody reads ten dashboards before coffee.`,
+        approach: `Built a single-screen Expo (React Native) card feed backed by Supabase. All third-party fetching runs server-side in Edge Functions on a cron, generating a pre-rendered daily 'brief' that an Anthropic model summarizes — so the app opens instantly with no client-side keys and offline-friendly caching.`,
+        outcome: `A polished iOS 'personal newspaper' that fuses weather, finance, news, email, and health into one AI-summarized morning read, with a Stripe-style Pro tier via RevenueCat.`,
+        body: `## Problem\n\nYour morning context lives in ten different apps. Each one is a separate open-check-close ritual, and the parts that actually matter — a market move, a flagged email, last night's sleep — are buried under everything that doesn't.\n\n## Approach\n\n- React Native + TypeScript on Expo SDK 54; one scrollable, memoized card feed (no router).\n- Supabase as the system of record with mandatory auth; all Anthropic/Polygon/NewsAPI/weather calls run server-side in Edge Functions — no API keys ship in the bundle.\n- A cron pre-generates each user's daily brief, summarized by an Anthropic model; cards read brief-first with local caching as fallback.\n- Plaid (bank balances), Gmail, and HealthKit integrations, with sensitive tokens encrypted at rest behind dedicated RPCs.\n- RevenueCat for a gated Pro tier.\n\n## Outcome\n\nA single-feed iOS app that turns a scattered morning routine into one AI-summarized read — fast cold-open, server-side security, and a working paid Pro tier.`,
+      },
+    },
+    {
       slug: "pairup",
       title: "PairUp",
       badges: ["Deprecated"],
@@ -232,9 +264,9 @@ export const DATA = {
         sourceUrl: "https://github.com/kianxm/candidate-search-ui",
         websiteUrl: "https://pairup-ai.vercel.app",
       },
-      image: "/pairup2.png",
+      image: "/pairup.png",
       video: "",
-      gallery: ["/pairup2.png", "/pairup.png"],
+      gallery: ["/pairup.png", "/pairup2.png"],
       caseStudy: {
         problem:
           "Recruiters can't search candidate pools by what someone can actually do — keyword filters miss the signal.",
